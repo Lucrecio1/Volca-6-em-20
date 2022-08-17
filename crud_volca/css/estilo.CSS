@@ -9,6 +9,7 @@
 }
 .letraS{
     font-family: Helvetica, Arial, sans-serif;
+    text-indent: 4%;
 }
 .ah2{
     font-family: Helvetica, Arial, sans-serif;
@@ -22,8 +23,7 @@
     font-size: 1rem;
 }
 .alinhar{
-    text-indent: 4%;
-    color: #000000;
+    color: #050505;
 }
 
 .org1{
@@ -82,25 +82,6 @@
     color: #ffd8a6;
 }
 
-.btn-floating.disabled,
-.btn-floating:disabled,
-.btn-floating[disabled],
-{
-    pointer-events: none;
-    background-color: #DFDFDF !important;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    color: #9F9F9F !important;
-    cursor: default;
-}
-
-.btn-floating.disabled:hover,
-.btn-floating:disabled:hover,
-.btn-floating[disabled]:hover,
-{
-    background-color: #DFDFDF !important;
-    color: #9F9F9F !important;
-}
 .btn-floating{
     font-size: 14px;
     outline: 0;
