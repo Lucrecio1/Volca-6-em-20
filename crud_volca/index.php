@@ -3,10 +3,8 @@ include_once '../includes/header.php'; ?>
    
 <body class="bg-white container-fluid" >
         <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 mb-4 bg-black">
-             <h1 class=" text-white text-center gap-2"> IMG</h1>
-                <div class=" col-6 mx-auto"><a href="#" class="btn btn-outline-info " role="button">WhathSapp</a></div>
-            </div>
+        
+             
             <div class=" container">
                             <!-- 1º segundo -->
                 <div class=" col-lg-6 col-md-10 col-sm-12">
@@ -45,10 +43,13 @@ include_once '../includes/header.php'; ?>
         </div>
             </div>
             
-                <div class="col-lg-4 col-md-2 col-sm-12">
+            <div class="row">
+                     <div class="col-lg-6 col-md-2 col-sm-12">
                     <div >
                     <h2 class="site-section-heading text-center font-secondary letraS ah2 mb-4">Palestrantes</h2>
                     </div>
                 </div>
+            </div>
+               
 </body>
 <?php include_once '../includes/footer.php';?>
