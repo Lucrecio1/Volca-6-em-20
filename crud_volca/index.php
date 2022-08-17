@@ -1,18 +1,16 @@
 <?php
 include_once '../includes/header.php'; ?>
    
-<body class="bg-white" >
+<body class="bg-white container-fluid" >
         <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 mx-4 img-fluid mb-3 h-auto">
-                <div class=" text-center ">
-                    <img src="../img/Como-ser-um-Hacker-2.png" class="rounded" alt="tema">
-                </div>
-                                
+        <div class="col-lg-12 col-md-12 col-sm-12 mb-4 bg-black">
+             <h1 class=" text-white text-center gap-2"> IMG</h1>
+                <div class=" col-6 mx-auto"><a href="#" class="btn btn-outline-info " role="button">WhathSapp</a></div>
             </div>
             <div class=" container">
                             <!-- 1º segundo -->
                 <div class=" col-lg-6 col-md-10 col-sm-12">
-                <h2 class="site-section-heading text-center font-secondary letraS ah2 mb-4">1° O QUE É O DESAFIO 6 EM 20</h2>
+                <h2 class="site-section-heading text-center font-secondary letraS ah2 mb-4">1° O QUE É O DESAFIO 6 EM 20?</h2>
                 
                 <p class="text-justify alinhar  letraS mx-3">É o maior evento online e interativo de Angola, focado em
                 melhorar os resultados das pessoas e empresas que trabalham com a internet para
