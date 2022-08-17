@@ -1,21 +1,25 @@
 <?php
 include_once '../includes/header.php'; ?>
 <div class="row">
-    <div class="mb-2 container col col-lg-12  p-2 bg-dark">
-        <h1 class=" mb-3 text-center text-danger">Aqui vai uma imagem </h1>
-        <h1 class=" mb-5 text-center text-white-50">REGINA MÃE DO ADRIEL</h1>
-        <div class=" text-center">
-            <a href="#" class="btn btn-outline-info p-3">QUERO ME INCREVER NO DESAFIO 6 EM 20</a>
-        </div>
-    </div>
+   
+    <body class="container" style="background-image: url('images/bg.jpg')";>
+ 
+<!-- Breves informações da aplicação -->
+    <div class="bg-white container">
+        <div class="row">
+            <div class="p-4 col-md-12 text-center">
+                <h2 class="site-section-heading text-center font-secondary letraS ah2">1° O QUE É O DESAFIO 6 EM 20</h2>
+                <p class="text-justify alinhar letraS"> de saúde.<br></p>
 
-    <div class="container mb-2 container col-lg-12  p-2 bg-body">
-        <h1>1° O QUE É O DESAFIO 6 EM 20?</h1>
-        <p class=""> É o maior evento online e interativo de Angola, focado em
-melhorar os resultados das pessoas e empresas que trabalham com a internet para
-fazer negócios (ou divulgar os seus trabalhos). Para você ter uma ideia, são cerca de 70 horas de conteúdos exclusivos e 10
-palestrantes convidados a sua disposição.
-        </p>
-    </div>
+                <p class="text-justify alinhar  letraS">É o maior evento online e interativo de Angola, focado em
+       melhorar os resultados das pessoas e empresas que trabalham com a internet para
+      fazer negócios (ou divulgar os seus trabalhos). Para você ter uma ideia, são cerca de 70 horas de conteúdos exclusivos e 10
+      palestrantes convidados a sua disposição.
+ <br></p>
+
+            </div>
+        </div>
+
+        <br>
 </div>
 <?php include_once '../includes/footer.php';?>
