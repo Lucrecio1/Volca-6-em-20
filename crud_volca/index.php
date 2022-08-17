@@ -5,7 +5,7 @@ include_once '../includes/header.php'; ?>
         <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 mx-4 img-fluid mb-3 h-auto">
                 <div class=" text-center ">
-                    <img src="../img/Como-ser-um-Hacker-2.png" class=" rounded" alt="tema">
+                    <img src="../img/Como-ser-um-Hacker-2.png" class="rounded" alt="tema">
                 </div>
                                 
             </div>
