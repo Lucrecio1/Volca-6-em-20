@@ -1,0 +1,261 @@
+@charset "UTF-8";
+@import url(http://fonts.gooleapis.com/css?family=Titillium+web);
+@font-face
+{
+	font-family: 'fontelogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+ p{
+	  	 text-align: justify;
+         text-indent: 50px;
+   }
+   /*formatação dos links*/
+a{
+	color: #606060;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+ body{
+ 	    font-family: arial, sans-serif;
+	  	color: rgba(0.0.0.0,2);
+	  	background-color: #ffffff;
+	 }
+	 div#interface
+	 {
+	 	width: 900px;
+	 	background-color: #fcfbfb;
+	 	margin: -10px auto 10px auto;
+	 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	 	padding: 10px ;
+	 }
+	/* formatação de imagem com legenda*/
+figure.foto-legenda
+{
+ position: relative;
+ border: 8px solid white;
+ box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda
+img
+{
+width:  100%;
+height: 30%;
+}
+figure.foto-legenda
+figcaption
+{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+figure.foto-legenda:hover figcaption
+{
+	opacity: 1;
+}
+
+/*
+formatação do menu
+*/
+nav#menu
+{
+	display: block;
+}
+nav#menu
+ul
+{
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -20px;
+  left: 600px;
+}
+nav#menu
+li
+{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	-moz-transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-ms-transition:background-color 1s;
+}
+nav#menu
+h1{
+	display: none;
+}
+nav#menu
+li:hover /**/
+{
+	background-color: #606060;
+}
+nav#menu
+a/* link ou ancora */
+{
+	color: #000000;
+	text-decoration: none;
+}
+nav#menu
+a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+ header#cabecalho img#icone
+ {
+	position: absolute;
+	left: 1010px;
+	top: 50px;
+}
+/* configuraroes de css */
+
+header#cabecalho
+h1{
+	font-family: 'fontelogo', sans-serif;
+	font-size: 30px;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	position:  0px;
+	margin-bottom: 0px;
+}
+
+/* corpo sessão*/
+section#corpo
+{
+	display: block;;
+	width: 480px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding: 20px;
+}
+/* formatação lateral*/
+aside#lateral
+{
+	display: block;;
+	width: 350px;
+	float: right;
+	background-color: #dddddd;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	margin-top: 0px;
+}
+aside#lateral
+h1{
+ font-family: 'fontelogo',sans-serif
+ font-size 20pt;
+ column-rule: #606060;
+ margin-top: 0px;
+}
+aside#lateral
+h2
+{
+	background-color: #606060;
+    font-size:  13pt;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 0px;
+}
+footer#rodape
+{
+	clear: both;/* limpa o conteudo  dos dois lados*/
+	border-top: 1px solid #606060;
+}
+footer#rodape
+p
+{
+	text-align: center;
+}
+/*tabela*/
+table#tabelaspec
+{
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*formatação de tabela*/
+table#tabelaspec td
+{
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+table#tabelaspec td.ce
+{
+text-align: left;
+color: white;
+background-color: #606060;
+vertical-align: top;
+font-weight: bold;
+}
+table#tabelaspec td.cd
+{
+ background-color: #cecece;
+}
+table#tabelaspec caption
+{
+	color: #888888;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+table#tabelaspec caption span
+{
+ display: block;
+ float: right;
+ color: #000000;
+ font-size: 10pt;
+ margin-top: 10px;
+}
+#videos{
+    width: 351px;
+}
+#video{
+    width: 478px;
+}
+article#noticia-principal
+h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #b9b9b9;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+ }
+ header#cabecalho-artigo
+ h1{
+ 	font-family: 'fontelogo', sans-serif;
+ 	font-size: 20px;
+ 	color: #606060;
+ }
+ h2{
+ 	font-size: 14pt;
+ 	color: #cecece;
+ 	background-color: #ffffff;
+ 	margin-bottom: 0px;
+ 	margin-top: 0px;
+ }
+ h3
+ {
+ 	font-size: 12px;
+ 	color: #606060;
+ }
+.dir
+{
+	text-align: right;
+}
